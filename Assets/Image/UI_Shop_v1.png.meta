@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 0285760a5425bc94aa54d9749c50e96e
+timeCreated: 1493823070
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PoorestGems
+    21300002: PoorGems
+    21300004: RubyIcon
+    21300006: Ruby_1
+    21300008: GreenMaterial
+    21300010: WhiteMaterial
+    21300012: BlackMaterial
+    21300014: OrangeMaterial
+    21300016: UI_Shop_v1_8
+    21300018: UI_Shop_v1_9
+    21300020: Ruby_2
+    21300022: UI_Shop_v1_11
+    21300024: UI_Shop_v1_12
+    21300026: ChestIcon
+    21300028: ChestImage
+    21300030: UI_Shop_v1_15
+    21300032: UI_Shop_v1_16
+    21300034: Ruby_4
+    21300036: Ruby_3
+    21300038: Material_Black
+    21300040: Material_Green
+    21300042: Material_White
+    21300044: Material_Orange
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: 47
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PoorestGems
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1622
+        width: 174
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PoorGems
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1618
+        width: 201
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RubyIcon
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1804
+        width: 149
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ruby_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1731
+        width: 244
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GreenMaterial
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1524
+        width: 300
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteMaterial
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1516
+        width: 302
+        height: 458
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BlackMaterial
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1516
+        width: 376
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: OrangeMaterial
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 1531
+        width: 454
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Shop_v1_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1428
+        width: 253
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Shop_v1_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1152
+        width: 374
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ruby_2
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1142
+        width: 372
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Shop_v1_11
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1138
+        width: 657
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Shop_v1_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1152
+        width: 372
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChestIcon
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 647
+        width: 535
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChestImage
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 628
+        width: 594
+        height: 454
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Shop_v1_15
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 713
+        width: 658
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_Shop_v1_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 120
+        width: 633
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ruby_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 74
+        width: 668
+        height: 511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ruby_3
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 288
+        width: 651
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Material_Black
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 101
+        width: 115
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Material_Green
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 101
+        width: 115
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Material_White
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 101
+        width: 115
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Material_Orange
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 101
+        width: 115
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

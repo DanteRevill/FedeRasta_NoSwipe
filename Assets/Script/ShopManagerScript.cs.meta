@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 07cf115052cfbc14e97d1b98c591a7f7
+timeCreated: 1491911322
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - StatusBarRubyText: {instanceID: 0}
+  - StatusBarIronText: {instanceID: 0}
+  - StatusBarSteelText: {instanceID: 0}
+  - StatusBarSilverText: {instanceID: 0}
+  - StatusBarGoldText: {instanceID: 0}
+  - RubyDecrease: {fileID: 8300000, guid: 5b2b0cbd42caa554893a97161d26d8c1, type: 3}
+  - audio: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
