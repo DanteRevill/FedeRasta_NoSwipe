@@ -19,6 +19,7 @@ public class PanelsMovementManager : MonoBehaviour
 	public GameObject EventsFlow;
 	public GameObject SurvivalFlow;
 	public GameObject FriendlyFlow;
+	public GameObject RankedModeFlow;
 
 	public GameObject LoadingScreen;
 	public GameObject LoginScreen;
@@ -33,8 +34,12 @@ public class PanelsMovementManager : MonoBehaviour
 	public GameObject FriendlyModeFlow;
 	public GameObject AlredyInAClanPanel;
 	public GameObject ProfilePanel;
-	public GameObject AreYouSurePopup;
+	public GameObject AreYouSurePopup_Clan;
+	public GameObject AreYouSurePopup_Ranked;
 	public GameObject ClanMembersDetails;
+	public GameObject RankedMatchDetails;
+	public GameObject SearchingRankedMatchDetails;
+	public GameObject RankedOpponentDetails;
 	public GameObject GAME_MODE_POPUP;
 
 	public Text GameModeCheck;
@@ -75,6 +80,7 @@ public class PanelsMovementManager : MonoBehaviour
 		EventsFlow.SetActive(false);
 		SurvivalFlow.SetActive(false);
 		FriendlyFlow.SetActive(false);
+		RankedModeFlow.SetActive(false);
 
 		Panel_Shop.SetActive(false);
 		Panel_Rewards.SetActive(false);
@@ -93,10 +99,14 @@ public class PanelsMovementManager : MonoBehaviour
 		DarkPanel.SetActive(false);
 		ObjectiveDetails.SetActive(false);
 		FindClanDetails.SetActive(false);
-		AreYouSurePopup.SetActive(false);
+		AreYouSurePopup_Clan.SetActive(false);
+		AreYouSurePopup_Ranked.SetActive(false);
 		AlredyInAClanPanel.SetActive(false);
 		ClanMembersDetails.SetActive(false);
 		ChestDetails.SetActive(false);
+		RankedMatchDetails.SetActive(false);
+		SearchingRankedMatchDetails.SetActive(false);
+		RankedOpponentDetails.SetActive(false);
 		GAME_MODE_POPUP.SetActive(false);
 	}
 
@@ -113,9 +123,12 @@ public class PanelsMovementManager : MonoBehaviour
 		DarkPanel.SetActive(false);
 		ObjectiveDetails.SetActive(false); ;
 		FindClanDetails.SetActive(false);
-		AreYouSurePopup.SetActive(false);
+		AreYouSurePopup_Clan.SetActive(false);
+		AreYouSurePopup_Ranked.SetActive(false);
 		ClanMembersDetails.SetActive(false);
 		ChestDetails.SetActive(false);
+		SearchingRankedMatchDetails.SetActive(false);
+		RankedMatchDetails.SetActive(false);
 	}
 
 	public void CloseEverything(bool closeAll)
@@ -132,6 +145,7 @@ public class PanelsMovementManager : MonoBehaviour
 			EventsFlow.SetActive(false);
 			SurvivalFlow.SetActive(false);
 			FriendlyFlow.SetActive(false);
+			RankedModeFlow.SetActive(false);
 		}
 	}
 

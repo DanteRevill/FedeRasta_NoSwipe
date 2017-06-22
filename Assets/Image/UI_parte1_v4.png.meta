@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c4b79b8ca0357264faf7cc2012a35641
-timeCreated: 1497633036
+timeCreated: 1498156267
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ TextureImporter:
     21300002: UI_parte1_v4_1
     21300004: UI_parte1_v4_2
     21300006: UI_parte1_v4_3
-    21300008: UI_parte1_v4_4
+    21300008: Loading
     21300010: UI_parte1_v4_5
     21300012: UI_parte1_v4_6
     21300014: UI_parte1_v4_7
@@ -216,7 +216,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: UI_parte1_v4_4
+      name: Loading
       rect:
         serializedVersion: 2
         x: 1792

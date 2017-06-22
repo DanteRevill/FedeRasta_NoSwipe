@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 4e5bcecbc2b911044863dd375f3f1708
-timeCreated: 1497359017
+timeCreated: 1498155888
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -27,7 +27,7 @@ TextureImporter:
     21300040: Material_1
     21300042: UI_parte1_v3_21
     21300044: Material_2
-    21300046: UI_parte1_v3_23
+    21300046: RedButton
     21300048: BackgroundDark
     21300050: Material_3
     21300052: Button
@@ -418,7 +418,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: UI_parte1_v3_23
+      name: RedButton
       rect:
         serializedVersion: 2
         x: 20
