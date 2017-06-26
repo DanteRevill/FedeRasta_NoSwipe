@@ -14,12 +14,26 @@ public class PanelsMovementManager : MonoBehaviour
 	public GameObject PopupGroup;
 	public GameObject TopBarSubPanels;
 
+	// GameMode Flows
 	public GameObject StoryModeFlow;
 	public GameObject HangarFlow;
 	public GameObject EventsFlow;
 	public GameObject SurvivalFlow;
 	public GameObject FriendlyFlow;
 	public GameObject RankedModeFlow;
+
+	// Clan Tabs
+	public GameObject MembersTabclan;
+	public GameObject InfoTabClan;
+	public GameObject RankingTabClan;
+	public GameObject CurrentTeamChallengeTab;
+	public GameObject HistoryTeamChallengeTab;
+
+	// Shop Tabs
+	public GameObject RubyPackContent;
+	public GameObject MaterialContentBackground;
+	public GameObject ChestlPackContent;
+	public GameObject SkinContentBackground;
 
 	public GameObject LoadingScreen;
 	public GameObject LoginScreen;
@@ -87,6 +101,17 @@ public class PanelsMovementManager : MonoBehaviour
 		Panel_Clan.SetActive(false);
 		Panel_Hangar.SetActive(false);
 		Panel_Missions.SetActive(false);
+
+		MembersTabclan.SetActive(false);
+		InfoTabClan.SetActive(false);
+		RankingTabClan.SetActive(false);
+		CurrentTeamChallengeTab.SetActive(false);
+		HistoryTeamChallengeTab.SetActive(false);
+
+		RubyPackContent.SetActive(false);
+		MaterialContentBackground.SetActive(false);
+		ChestlPackContent.SetActive(false);
+		SkinContentBackground.SetActive(false);
 
 		UnlockShipDetailsPanel.SetActive(false);
 		LoadingScreen.SetActive(false);
@@ -194,6 +219,81 @@ public class PanelsMovementManager : MonoBehaviour
 		go.SetActive(true);
 		interactable = true;
 		Interactable();
+	}
+
+	public void OpenCloseClanTabs(int Tab)
+	{
+		switch (Tab)
+		{
+			case 0:
+				MembersTabclan.SetActive(false);
+				RankingTabClan.SetActive(false);
+				CurrentTeamChallengeTab.SetActive(false);
+				HistoryTeamChallengeTab.SetActive(false);
+
+				InfoTabClan.SetActive(true);
+				return;
+			case 1:
+				RankingTabClan.SetActive(false);
+				CurrentTeamChallengeTab.SetActive(false);
+				HistoryTeamChallengeTab.SetActive(false);
+				InfoTabClan.SetActive(false);
+
+				MembersTabclan.SetActive(true);
+				Debug.Log("ATTIVA");
+				return;
+			case 2:
+				CurrentTeamChallengeTab.SetActive(false);
+				HistoryTeamChallengeTab.SetActive(false);
+				InfoTabClan.SetActive(false);
+				MembersTabclan.SetActive(false);
+
+				RankingTabClan.SetActive(true);
+				return;
+			case 3:
+				RankingTabClan.SetActive(false);
+				InfoTabClan.SetActive(false);
+				MembersTabclan.SetActive(false);
+
+				CurrentTeamChallengeTab.SetActive(true);
+				HistoryTeamChallengeTab.SetActive(true);
+				return;
+		}
+	}
+
+	public void OpenCloseShopTabs(int Tab)
+	{
+		switch (Tab)
+		{
+			case 0:
+				MaterialContentBackground.SetActive(false);
+				ChestlPackContent.SetActive(false);
+				SkinContentBackground.SetActive(false);
+
+				RubyPackContent.SetActive(true);
+				return;
+			case 1:
+				ChestlPackContent.SetActive(false);
+				SkinContentBackground.SetActive(false);
+				RubyPackContent.SetActive(false);
+
+				MaterialContentBackground.SetActive(true);
+				return;
+			case 2:
+				SkinContentBackground.SetActive(false);
+				RubyPackContent.SetActive(false);
+				MaterialContentBackground.SetActive(false);
+
+				ChestlPackContent.SetActive(true);
+				return;
+			case 3:
+				RubyPackContent.SetActive(false);
+				MaterialContentBackground.SetActive(false);
+				ChestlPackContent.SetActive(false);
+
+				SkinContentBackground.SetActive(true);
+				return;
+		}
 	}
 
 	public void OpenPanel_DARK_PANEL(GameObject go)
