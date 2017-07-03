@@ -162,6 +162,8 @@ public class PanelsMovementManager : MonoBehaviour
 		DarkPanel.SetActive(false);
 		ButtonDarkPanel.SetActive(false);
 		TopBarSubPanels.SetActive(false);
+		OptionPanel.SetActive (false);
+		ProfilePanel.SetActive (false);
 
 		if (closeAll == true)
 		{
