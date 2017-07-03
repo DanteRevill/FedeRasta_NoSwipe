@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c4b79b8ca0357264faf7cc2012a35641
-timeCreated: 1498156267
+timeCreated: 1499090823
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -19,7 +19,7 @@ TextureImporter:
     21300024: UI_parte1_v4_12
     21300026: UI_parte1_v4_13
     21300028: UI_parte1_v4_14
-    21300030: UI_parte1_v4_15
+    21300030: WhiteCircle
     21300032: UI_parte1_v4_16
     21300034: UI_parte1_v4_17
     21300036: UI_parte1_v4_18
@@ -29,7 +29,7 @@ TextureImporter:
     21300044: RubiesIcon
     21300046: UI_parte1_v4_23
     21300048: UI_parte1_v4_24
-    21300050: UI_parte1_v4_25
+    21300050: SkillTier
     21300052: UI_parte1_v4_26
     21300054: UI_parte1_v4_27
     21300056: UI_parte1_v4_28
@@ -359,7 +359,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: UI_parte1_v4_15
+      name: WhiteCircle
       rect:
         serializedVersion: 2
         x: 596
@@ -489,16 +489,16 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: UI_parte1_v4_25
+      name: SkillTier
       rect:
         serializedVersion: 2
-        x: 827
-        y: 1667
-        width: 45
-        height: 45
+        x: 836
+        y: 1676
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2

@@ -26,8 +26,6 @@ public class PanelsMovementManager : MonoBehaviour
 	public GameObject MembersTabclan;
 	public GameObject InfoTabClan;
 	public GameObject RankingTabClan;
-	public GameObject CurrentTeamChallengeTab;
-	public GameObject HistoryTeamChallengeTab;
 
 	// Shop Tabs
 	public GameObject RubyPackContent;
@@ -54,6 +52,7 @@ public class PanelsMovementManager : MonoBehaviour
 	public GameObject RankedMatchDetails;
 	public GameObject SearchingRankedMatchDetails;
 	public GameObject RankedOpponentDetails;
+	public GameObject HistoryPopup;
 	public GameObject GAME_MODE_POPUP;
 
 	public Text GameModeCheck;
@@ -105,8 +104,6 @@ public class PanelsMovementManager : MonoBehaviour
 		MembersTabclan.SetActive(false);
 		InfoTabClan.SetActive(false);
 		RankingTabClan.SetActive(false);
-		CurrentTeamChallengeTab.SetActive(false);
-		HistoryTeamChallengeTab.SetActive(false);
 
 		RubyPackContent.SetActive(false);
 		MaterialContentBackground.SetActive(false);
@@ -132,6 +129,7 @@ public class PanelsMovementManager : MonoBehaviour
 		RankedMatchDetails.SetActive(false);
 		SearchingRankedMatchDetails.SetActive(false);
 		RankedOpponentDetails.SetActive(false);
+		HistoryPopup.SetActive (false);
 		GAME_MODE_POPUP.SetActive(false);
 	}
 
@@ -162,6 +160,8 @@ public class PanelsMovementManager : MonoBehaviour
 		DarkPanel.SetActive(false);
 		ButtonDarkPanel.SetActive(false);
 		TopBarSubPanels.SetActive(false);
+		OptionPanel.SetActive (false);
+		ProfilePanel.SetActive (false);
 
 		if (closeAll == true)
 		{
@@ -228,35 +228,21 @@ public class PanelsMovementManager : MonoBehaviour
 			case 0:
 				MembersTabclan.SetActive(false);
 				RankingTabClan.SetActive(false);
-				CurrentTeamChallengeTab.SetActive(false);
-				HistoryTeamChallengeTab.SetActive(false);
 
 				InfoTabClan.SetActive(true);
 				return;
 			case 1:
 				RankingTabClan.SetActive(false);
-				CurrentTeamChallengeTab.SetActive(false);
-				HistoryTeamChallengeTab.SetActive(false);
 				InfoTabClan.SetActive(false);
 
 				MembersTabclan.SetActive(true);
 				Debug.Log("ATTIVA");
 				return;
 			case 2:
-				CurrentTeamChallengeTab.SetActive(false);
-				HistoryTeamChallengeTab.SetActive(false);
 				InfoTabClan.SetActive(false);
 				MembersTabclan.SetActive(false);
 
 				RankingTabClan.SetActive(true);
-				return;
-			case 3:
-				RankingTabClan.SetActive(false);
-				InfoTabClan.SetActive(false);
-				MembersTabclan.SetActive(false);
-
-				CurrentTeamChallengeTab.SetActive(true);
-				HistoryTeamChallengeTab.SetActive(true);
 				return;
 		}
 	}
