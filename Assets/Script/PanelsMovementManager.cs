@@ -50,6 +50,7 @@ public class PanelsMovementManager : MonoBehaviour
 	public GameObject RankedGamePopup;
 	public GameObject OptionPanel;
 	public GameObject ProfilePanel;
+	public GameObject MatchHistoryPopup;
 
 	// General
 	public GameObject GAME_MODE_POPUP;
@@ -72,6 +73,7 @@ public class PanelsMovementManager : MonoBehaviour
 	public GameObject SearchingRankedMatchDetails;
 	public GameObject RankedOpponentDetails;
 	public GameObject HistoryPopup;
+	public GameObject NotificationPopup;
 
 	public Text GameModeCheck;
 
@@ -162,6 +164,8 @@ public class PanelsMovementManager : MonoBehaviour
 		SearchingRankedMatchDetails.SetActive(false);
 		RankedOpponentDetails.SetActive(false);
 		HistoryPopup.SetActive (false);
+		MatchHistoryPopup.SetActive (false);
+		NotificationPopup.SetActive (false);
 		GAME_MODE_POPUP.SetActive(false);
 	}
 
