@@ -7,28 +7,13 @@ using UnityEngine.EventSystems;
 
 	public GameObject SkillDetails;
 
-	void Update()
-	{
-		Debug.Log("SKILL_DETAILS");
-		if (ispressed == true)
-		{
-			SkillDetails.SetActive(true);
-		}
-		else
-		{
-			SkillDetails.SetActive(false);
-		}
-	}
-
-	bool ispressed = false;
-
 	public void OnPointerDown(PointerEventData eventData)
 	{
-		ispressed = true;
+		SkillDetails.SetActive(true);
 	}
 
 	public void OnPointerUp(PointerEventData eventData)
 	{
-		ispressed = false;
+		SkillDetails.SetActive(false);
 	}
 }

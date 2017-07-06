@@ -27,25 +27,44 @@ public class PanelsMovementManager : MonoBehaviour
 	public GameObject InfoTabClan;
 	public GameObject RankingTabClan;
 
+	// Profile Tabs
+	public GameObject PlayerInfoTab;
+	public GameObject PlayerStatisticsTabs;
+
 	// Shop Tabs
 	public GameObject RubyPackContent;
 	public GameObject MaterialContentBackground;
 	public GameObject ChestlPackContent;
 	public GameObject SkinContentBackground;
 
+	// Normal Game Tabs
+	public GameObject NormalGlobalTab;
+	public GameObject NormalLocalTab;
+
+	// Ranked Game Tabs
+	public GameObject RankedGlobalTab;
+	public GameObject RankedLocalTab;
+
+	// TopBarPopup
+	public GameObject NormalGamePopup;
+	public GameObject RankedGamePopup;
+	public GameObject OptionPanel;
+	public GameObject ProfilePanel;
+
+	// General
+	public GameObject GAME_MODE_POPUP;
 	public GameObject LoadingScreen;
 	public GameObject LoginScreen;
+	public GameObject DarkPanel;
+	public GameObject ButtonDarkPanel;
+
 	public GameObject StoryScreen;
 	public GameObject ChapterDetails;
 	public GameObject ObjectiveDetails;
 	public GameObject ChestDetails;
-	public GameObject DarkPanel;
-	public GameObject OptionPanel;
-	public GameObject ButtonDarkPanel;
 	public GameObject FindClanDetails;
 	public GameObject FriendlyModeFlow;
 	public GameObject AlredyInAClanPanel;
-	public GameObject ProfilePanel;
 	public GameObject AreYouSurePopup_Clan;
 	public GameObject AreYouSurePopup_Ranked;
 	public GameObject ClanMembersDetails;
@@ -53,7 +72,6 @@ public class PanelsMovementManager : MonoBehaviour
 	public GameObject SearchingRankedMatchDetails;
 	public GameObject RankedOpponentDetails;
 	public GameObject HistoryPopup;
-	public GameObject GAME_MODE_POPUP;
 
 	public Text GameModeCheck;
 
@@ -88,6 +106,8 @@ public class PanelsMovementManager : MonoBehaviour
 	{
 		ActualPanel = 3;
 
+		Panel_Play.SetActive(true);
+
 		StoryModeFlow.SetActive(false);
 		HangarFlow.SetActive(false);
 		EventsFlow.SetActive(false);
@@ -105,10 +125,22 @@ public class PanelsMovementManager : MonoBehaviour
 		InfoTabClan.SetActive(false);
 		RankingTabClan.SetActive(false);
 
+		PlayerInfoTab.SetActive(false);
+		PlayerStatisticsTabs.SetActive(false);
+
 		RubyPackContent.SetActive(false);
 		MaterialContentBackground.SetActive(false);
 		ChestlPackContent.SetActive(false);
 		SkinContentBackground.SetActive(false);
+
+		NormalGamePopup.SetActive(false);
+		RankedGamePopup.SetActive(false);
+
+		NormalGlobalTab.SetActive(false);
+		NormalLocalTab.SetActive(false);
+
+		RankedGlobalTab.SetActive(false);
+		RankedLocalTab.SetActive(false);
 
 		UnlockShipDetailsPanel.SetActive(false);
 		LoadingScreen.SetActive(false);
@@ -247,6 +279,23 @@ public class PanelsMovementManager : MonoBehaviour
 		}
 	}
 
+	public void OpenCloseProfileTabs(int Tab)
+	{
+		switch (Tab)
+		{
+			case 0:
+				PlayerStatisticsTabs.SetActive(false);
+
+				PlayerInfoTab.SetActive(true);
+				return;
+			case 1:
+				PlayerInfoTab.SetActive(false);
+
+				PlayerStatisticsTabs.SetActive(true);
+				return;
+		}
+	}
+
 	public void OpenCloseShopTabs(int Tab)
 	{
 		switch (Tab)
@@ -278,6 +327,40 @@ public class PanelsMovementManager : MonoBehaviour
 				ChestlPackContent.SetActive(false);
 
 				SkinContentBackground.SetActive(true);
+				return;
+		}
+	}
+
+	public void OpenCloseNormalGameTabs(int Tab)
+	{
+		switch (Tab)
+		{
+			case 0:
+				NormalLocalTab.SetActive(false);
+
+				NormalGlobalTab.SetActive(true);				
+				return;
+			case 1:
+				NormalGlobalTab.SetActive(false);
+
+				NormalLocalTab.SetActive(true);				
+				return;
+		}
+	}
+
+	public void OpenCloseRankedGameTabs(int Tab)
+	{
+		switch (Tab)
+		{
+			case 0:
+				RankedLocalTab.SetActive(false);
+
+				RankedGlobalTab.SetActive(true);
+				return;
+			case 1:
+				RankedGlobalTab.SetActive(false);
+
+				RankedLocalTab.SetActive(true);
 				return;
 		}
 	}
@@ -315,6 +398,7 @@ public class PanelsMovementManager : MonoBehaviour
 
 	public void ClosePopup(GameObject go)
 	{
+		go.SetActive(false);
 		CloseEverything(false);
 		interactable = true;
 		Interactable();
