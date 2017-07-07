@@ -51,13 +51,18 @@ public class PanelsMovementManager : MonoBehaviour
 	public GameObject OptionPanel;
 	public GameObject ProfilePanel;
 	public GameObject MatchHistoryPopup;
+	public GameObject RankedMatchRecapPopup;
 
 	// General
 	public GameObject GAME_MODE_POPUP;
-	public GameObject LoadingScreen;
-	public GameObject LoginScreen;
 	public GameObject DarkPanel;
 	public GameObject ButtonDarkPanel;
+
+	// Screen
+	public GameObject LoadingScreen;
+	public GameObject LoginScreen;
+	public GameObject RankedEndScreen;
+	public GameObject Survivalendscreen;
 
 	public GameObject StoryScreen;
 	public GameObject ChapterDetails;
@@ -137,6 +142,7 @@ public class PanelsMovementManager : MonoBehaviour
 
 		NormalGamePopup.SetActive(false);
 		RankedGamePopup.SetActive(false);
+		RankedMatchRecapPopup.SetActive(false);
 
 		NormalGlobalTab.SetActive(false);
 		NormalLocalTab.SetActive(false);
@@ -144,9 +150,12 @@ public class PanelsMovementManager : MonoBehaviour
 		RankedGlobalTab.SetActive(false);
 		RankedLocalTab.SetActive(false);
 
-		UnlockShipDetailsPanel.SetActive(false);
+		RankedEndScreen.SetActive(false);
+		Survivalendscreen.SetActive(false);
 		LoadingScreen.SetActive(false);
 		LoginScreen.SetActive(false);
+
+		UnlockShipDetailsPanel.SetActive(false);
 		ChapterDetails.SetActive(false);
 		OptionPanel.SetActive(false);
 		ButtonDarkPanel.SetActive(false);

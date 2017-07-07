@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 4e5bcecbc2b911044863dd375f3f1708
-timeCreated: 1498155888
+timeCreated: 1499447140
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -12,8 +12,8 @@ TextureImporter:
     21300010: TrophyIcon
     21300012: TierIcon
     21300014: LockIcon
-    21300016: NotificationIcon
-    21300018: UI_parte1_v3_9
+    21300016: MatchHistoryIcon
+    21300018: NotificationIcon
     21300020: OptionIcon
     21300022: UI_parte1_v3_11
     21300024: CloseButton
@@ -223,7 +223,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: NotificationIcon
+      name: MatchHistoryIcon
       rect:
         serializedVersion: 2
         x: 480
@@ -236,10 +236,10 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: UI_parte1_v3_9
+      name: NotificationIcon
       rect:
         serializedVersion: 2
-        x: 660
+        x: 659
         y: 1804
         width: 172
         height: 172
@@ -253,7 +253,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 842
-        y: 1806
+        y: 1807
         width: 170
         height: 170
       alignment: 0
